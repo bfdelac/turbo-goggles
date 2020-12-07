@@ -11,7 +11,7 @@ Steps for simulation run nn
 1. Run: `> perl swiftoutputtoinput.pl runsimnn.csv.gz paramsnn.json nn`
 1. Run simulator providing TP CSV = `propagatenn.csv` and values Total Integration Time = 11, Integration Timestep = 0.02, Output Timestep = 0.02, output is planet + test particle positions/velocities at approx weekly intervals over 10 years in `ascii.csv.gz` file 
 1. Download this file to `runorbitnn.csv.gz`
-1. Run: `> perl lsstdetect.pl \<opsim output.db\> \<SWIFT orbit output.csv.gz\> \<params.json\> \<output.csv\>
+1. Run: `> perl lsstdetect.pl \<opsim output.db\> \<SWIFT orbit output.csv.gz\> \<params.json\> \<output.csv\>`
 
 
 # LSST Detect Usage:
