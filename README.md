@@ -14,8 +14,8 @@ Steps for simulation run nn
 1. Run: `> perl lsstdetect.pl \<opsim output.db\> \<SWIFT orbit output.csv.gz\> \<params.json\> \<output.csv\>`
 
 
-# LSST Detect Usage:
-  perl lsstdetect.pl \<opsim output.db\> \<SWIFT orbit output.csv.gz\> \<params.json\> \<output.csv\>
+# LSSTDetect Usage:
+  `> perl lsstdetect.pl \<opsim output.db\> \<SWIFT orbit output.csv.gz\> \<params.json\> \<output.csv\>`
 
 where:
 * \<opsim output.db\> is a candidate opsim run as a SQLite database. See:  http://astro-lsst-01.astro.washington.edu:8082/
